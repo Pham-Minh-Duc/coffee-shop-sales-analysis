@@ -1,0 +1,1 @@
+SELECT * FROM coffeeshopdata.raw_sales_data;

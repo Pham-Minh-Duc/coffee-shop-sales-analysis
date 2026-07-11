@@ -1,0 +1,12 @@
+# Chặn các file dữ liệu nặng
+data/
+*.xlsx
+*.csv
+
+# Chặn môi trường ảo python nếu bạn có dùng (ví dụ .venv, venv)
+.venv/
+venv/
+ENV/
+
+# Chặn file cấu hình nội bộ của Jupyter Notebook
+.ipynb_checkpoints/
