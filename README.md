@@ -109,7 +109,7 @@ Cơ cấu tỷ trọng đóng góp doanh thu của từng nhóm sản phẩm.
 #### 1.Clone repository này về máy cục bộ:
 
 Bash
-git clone [https://github.com/your-username/coffee-shop-sales.git](https://github.com/your-username/coffee-shop-sales.git)
+git clone [https://github.com/Pham-Minh-Duc/coffee-shop-sales-analysis.git](https://github.com/Pham-Minh-Duc/coffee-shop-sales-analysis.git)
 #### 2.Cài đặt các thư viện cần thiết:
 
 Bash
