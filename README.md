@@ -1,10 +1,10 @@
 ☕ Coffee Shop Sales Analysis & ETL Pipeline
-#### 📌 1. Giới thiệu dự án (Project Overview)
+## 📌 1. Giới thiệu dự án (Project Overview)
 Tên dự án: Coffee Shop Sales ETL & Executive Dashboard
 
 Mục tiêu: Xây dựng hệ thống Data Pipeline tự động hóa từ khâu xử lý dữ liệu thô, nạp vào Data Warehouse đến khai thác Insights kinh doanh cho chuỗi cửa hàng cà phê. Dự án giúp giải quyết bài toán tối ưu hóa doanh thu, quản lý ca kíp nhân sự, đánh giá hiệu suất chi nhánh và định hướng chiến lược Combo / Upselling dựa trên dữ liệu giao dịch thực tế.
 
-#### 🏗️ 2. Tổng quan về Dataset & Kiến trúc (Data & Architecture)
+## 🏗️ 2. Tổng quan về Dataset & Kiến trúc (Data & Architecture)
 Thông tin Dataset: Tập dữ liệu giao dịch bán hàng gồm khoảng 149,000+ dòng và 9 cột thông tin (mã giao dịch, ngày giờ, vị trí cửa hàng, sản phẩm, số lượng, giá bán...).
 
 Tech Stack:
@@ -24,7 +24,7 @@ Plaintext
                           ➔ [ETL Pipeline (Python - 02_etl_pipeline.ipynb)] 
                                 ➔ [Data Warehouse (MySQL - fact_sales)] 
                                       ➔ [Deep Analysis (03_data_analysis.ipynb) & Power BI Dashboard]
-#### 🌟 3. Tóm tắt Insights & Kết quả chính (Key Findings & Insights)
+## 🌟 3. Tóm tắt Insights & Kết quả chính (Key Findings & Insights)
 🏆 Sản phẩm & Menu (Product Performance)
 📈 Sản phẩm chủ lực: Nhóm hàng Coffee và Tea đóng góp tỷ trọng doanh thu lớn nhất toàn chuỗi.
 
@@ -45,7 +45,7 @@ Plaintext
 
 💡 Đề xuất: Điều chỉnh ca làm việc và chương trình khuyến mãi (Happy Hour) linh hoạt riêng cho từng chi nhánh thay vì áp dụng cào bằng.
 
-#### 📈 4. Hình ảnh Dashboard (Dashboard Visuals)
+## 📈 4. Hình ảnh Dashboard (Dashboard Visuals)
 (Lưu ý: Thay tên file dashboard_overview.png bằng tên file ảnh thực tế nằm trong thư mục dashboards/screenshots/ của bạn)
 
 📂 Cấu trúc thư mục (Project Structure)
@@ -73,21 +73,21 @@ Coffee Shop Sales/
 ├── .env                                # Khai báo biến môi trường (Database credentials)
 ├── .gitignore                          # Cấu hình chặn push file nặng/nhạy cảm
 └── README.md                           # Tài liệu tổng quan dự án
-#### 🛠️ 5. Hướng dẫn cài đặt & Chạy dự án (How to Run / Installation)
-##### 1. Clone repository về máy cục bộ:
+## 🛠️ 5. Hướng dẫn cài đặt & Chạy dự án (How to Run / Installation)
+### 1. Clone repository về máy cục bộ:
 Bash
 git clone https://github.com/Pham-Minh-Duc/coffee-shop-sales-analysis.git
 cd coffee-shop-sales-analysis
-##### 2. Cài đặt môi trường & Thư viện:
+### 2. Cài đặt môi trường & Thư viện:
 Bash
-# Tạo và kích hoạt môi trường ảo (Khuyên dùng)
+#### Tạo và kích hoạt môi trường ảo (Khuyên dùng)
 python -m venv coffeeShopVenv
 source coffeeShopVenv/bin/activate  # Trên Linux/Mac
-# coffeeShopVenv\Scripts\activate   # Trên Windows
+#### coffeeShopVenv\Scripts\activate   # Trên Windows
 
-# Cài đặt thư viện
+#### Cài đặt thư viện
 pip install pandas numpy matplotlib seaborn sqlalchemy pymysql openpyxl python-dotenv
-##### 3. Cấu hình Cơ sở dữ liệu MySQL:
+### 3. Cấu hình Cơ sở dữ liệu MySQL:
 Mở MySQL Workbench, chạy file sql/01_init_schema.sql để khởi tạo Database và cấu trúc bảng.
 
 Tạo file .env tại thư mục gốc và điền thông tin kết nối Database của bạn:
