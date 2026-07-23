@@ -98,7 +98,7 @@ DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=coffee_shop_db
 DB_PORT=3306
-4. Thực thi theo thứ tự:
+### 4. Thực thi theo thứ tự:
 Chạy File Khảo sát: Mở notebooks/01_initial_eda.ipynb để xem đánh giá dữ liệu thô.
 
 Chạy Pipeline ETL: Chạy notebooks/02_etl_pipeline.ipynb để trích xuất, làm sạch và đổ dữ liệu sạch vào bảng fact_sales trong MySQL.
